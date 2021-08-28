@@ -1,0 +1,17 @@
+C:\Users\iHateEverything\source\repos\NukeDoorLock\SCRAMBLE-Gear\SCRAMBLE-Gear\bin\Debug\netcoreapp3.1\SCRAMBLE-Gear.deps.json
+C:\Users\iHateEverything\source\repos\NukeDoorLock\SCRAMBLE-Gear\SCRAMBLE-Gear\bin\Debug\netcoreapp3.1\SCRAMBLE-Gear.dll
+C:\Users\iHateEverything\source\repos\NukeDoorLock\SCRAMBLE-Gear\SCRAMBLE-Gear\bin\Debug\netcoreapp3.1\SCRAMBLE-Gear.pdb
+C:\Users\iHateEverything\source\repos\NukeDoorLock\SCRAMBLE-Gear\SCRAMBLE-Gear\bin\Debug\netcoreapp3.1\Assembly-CSharp.dll
+C:\Users\iHateEverything\source\repos\NukeDoorLock\SCRAMBLE-Gear\SCRAMBLE-Gear\bin\Debug\netcoreapp3.1\Exiled.API.dll
+C:\Users\iHateEverything\source\repos\NukeDoorLock\SCRAMBLE-Gear\SCRAMBLE-Gear\bin\Debug\netcoreapp3.1\Exiled.CustomItems.dll
+C:\Users\iHateEverything\source\repos\NukeDoorLock\SCRAMBLE-Gear\SCRAMBLE-Gear\bin\Debug\netcoreapp3.1\Exiled.Events.dll
+C:\Users\iHateEverything\source\repos\NukeDoorLock\SCRAMBLE-Gear\SCRAMBLE-Gear\bin\Debug\netcoreapp3.1\Exiled.Loader.dll
+C:\Users\iHateEverything\source\repos\NukeDoorLock\SCRAMBLE-Gear\SCRAMBLE-Gear\bin\Debug\netcoreapp3.1\Exiled.Permissions.dll
+C:\Users\iHateEverything\source\repos\NukeDoorLock\SCRAMBLE-Gear\SCRAMBLE-Gear\obj\Debug\netcoreapp3.1\SCRAMBLE-Gear.csproj.AssemblyReference.cache
+C:\Users\iHateEverything\source\repos\NukeDoorLock\SCRAMBLE-Gear\SCRAMBLE-Gear\obj\Debug\netcoreapp3.1\SCRAMBLE-Gear.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\iHateEverything\source\repos\NukeDoorLock\SCRAMBLE-Gear\SCRAMBLE-Gear\obj\Debug\netcoreapp3.1\SCRAMBLE-Gear.AssemblyInfoInputs.cache
+C:\Users\iHateEverything\source\repos\NukeDoorLock\SCRAMBLE-Gear\SCRAMBLE-Gear\obj\Debug\netcoreapp3.1\SCRAMBLE-Gear.AssemblyInfo.cs
+C:\Users\iHateEverything\source\repos\NukeDoorLock\SCRAMBLE-Gear\SCRAMBLE-Gear\obj\Debug\netcoreapp3.1\SCRAMBLE-Gear.csproj.CoreCompileInputs.cache
+C:\Users\iHateEverything\source\repos\NukeDoorLock\SCRAMBLE-Gear\SCRAMBLE-Gear\obj\Debug\netcoreapp3.1\SCRAMBLE-Gear.csproj.CopyComplete
+C:\Users\iHateEverything\source\repos\NukeDoorLock\SCRAMBLE-Gear\SCRAMBLE-Gear\obj\Debug\netcoreapp3.1\SCRAMBLE-Gear.dll
+C:\Users\iHateEverything\source\repos\NukeDoorLock\SCRAMBLE-Gear\SCRAMBLE-Gear\obj\Debug\netcoreapp3.1\SCRAMBLE-Gear.pdb

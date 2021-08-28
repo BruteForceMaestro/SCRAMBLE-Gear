@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>SCRAMBLE_Gear</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Bcl.Async" Version="1.0.168" />
+    <PackageReference Include="System.Threading" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>A:\Desktop\Exiled (6).tar\Exiled (6)\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Exiled.API">
+      <HintPath>A:\Desktop\Exiled (1).tar\Exiled (1)\EXILED\Plugins\dependencies\Exiled.API.dll</HintPath>
+    </Reference>
+    <Reference Include="Exiled.CustomItems">
+      <HintPath>A:\Desktop\Exiled (6).tar\Exiled (6)\EXILED\Plugins\Exiled.CustomItems.dll</HintPath>
+    </Reference>
+    <Reference Include="Exiled.Events">
+      <HintPath>A:\Desktop\Exiled (5).tar\Exiled (5)\EXILED\Plugins\Exiled.Events.dll</HintPath>
+    </Reference>
+    <Reference Include="Exiled.Loader">
+      <HintPath>A:\Desktop\Exiled (1).tar\Exiled (1)\EXILED\Exiled.Loader.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

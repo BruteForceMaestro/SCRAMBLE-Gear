@@ -1,0 +1,212 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "SCRAMBLE-Gear/1.0.0": {
+        "dependencies": {
+          "Microsoft.Bcl.Async": "1.0.168",
+          "System.Threading": "4.3.0",
+          "Assembly-CSharp": "0.0.0.0",
+          "Exiled.API": "3.0.0.0",
+          "Exiled.CustomItems": "3.0.0.0",
+          "Exiled.Events": "3.0.0.0",
+          "Exiled.Loader": "3.0.0.0"
+        },
+        "runtime": {
+          "SCRAMBLE-Gear.dll": {}
+        }
+      },
+      "Microsoft.Bcl/1.1.8": {
+        "dependencies": {
+          "Microsoft.Bcl.Build": "1.0.14"
+        }
+      },
+      "Microsoft.Bcl.Async/1.0.168": {
+        "dependencies": {
+          "Microsoft.Bcl": "1.1.8"
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Threading.Tasks.Extensions.Desktop.dll": {
+            "assemblyVersion": "1.0.168.0",
+            "fileVersion": "1.0.168.0"
+          },
+          "lib/net40/Microsoft.Threading.Tasks.Extensions.dll": {
+            "assemblyVersion": "1.0.12.0",
+            "fileVersion": "1.0.168.0"
+          },
+          "lib/net40/Microsoft.Threading.Tasks.dll": {
+            "assemblyVersion": "1.0.12.0",
+            "fileVersion": "1.0.168.0"
+          }
+        }
+      },
+      "Microsoft.Bcl.Build/1.0.14": {},
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "Microsoft.NETCore.Targets/1.1.0": {},
+      "System.Runtime/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0"
+        }
+      },
+      "System.Threading/4.3.0": {
+        "dependencies": {
+          "System.Runtime": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "System.Threading.Tasks/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0",
+          "Microsoft.NETCore.Targets": "1.1.0",
+          "System.Runtime": "4.3.0"
+        }
+      },
+      "Assembly-CSharp/0.0.0.0": {
+        "runtime": {
+          "Assembly-CSharp.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Exiled.API/3.0.0.0": {
+        "runtime": {
+          "Exiled.API.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "Exiled.CustomItems/3.0.0.0": {
+        "runtime": {
+          "Exiled.CustomItems.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "Exiled.Events/3.0.0.0": {
+        "runtime": {
+          "Exiled.Events.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "Exiled.Loader/3.0.0.0": {
+        "runtime": {
+          "Exiled.Loader.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "Exiled.Permissions/3.0.0.0": {
+        "runtime": {
+          "Exiled.Permissions.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SCRAMBLE-Gear/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Bcl/1.1.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gM+PUzd8ONxJpcPJeNppCJPklDhDuPUMVQkxvK4fe0rd9WyqBNPh4+UFx3Uv8zuG4C1Gapu1c25sfotE7TQtig==",
+      "path": "microsoft.bcl/1.1.8",
+      "hashPath": "microsoft.bcl.1.1.8.nupkg.sha512"
+    },
+    "Microsoft.Bcl.Async/1.0.168": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tUNC02eBwDKpGre0BcNIvblLv1q0Q3DnS/vtkRHj2FE1sXwt386HAudztyl5C0U88hllrqHDvtlz8bK0Y8cHDA==",
+      "path": "microsoft.bcl.async/1.0.168",
+      "hashPath": "microsoft.bcl.async.1.0.168.nupkg.sha512"
+    },
+    "Microsoft.Bcl.Build/1.0.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cDLKSvNvRa519hplsbSoYqO69TjdDIhfjtKUM0g20/nVROoWsGav9KCI9HtnGjLmdV1+TcUUDhbotcllibjPEA==",
+      "path": "microsoft.bcl.build/1.0.14",
+      "hashPath": "microsoft.bcl.build.1.0.14.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Targets/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
+      "path": "microsoft.netcore.targets/1.1.0",
+      "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
+    },
+    "System.Runtime/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JufQi0vPQ0xGnAczR13AUFglDyVYt4Kqnz1AZaiKZ5+GICq0/1MH/mO/eAJHt/mHW1zjKBJd7kV26SrxddAhiw==",
+      "path": "system.runtime/4.3.0",
+      "hashPath": "system.runtime.4.3.0.nupkg.sha512"
+    },
+    "System.Threading/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VkUS0kOBcUf3Wwm0TSbrevDDZ6BlM+b/HRiapRFWjM5O0NS0LviG0glKmFK+hhPDd1XFeSdU1GmlLhb2CoVpIw==",
+      "path": "system.threading/4.3.0",
+      "hashPath": "system.threading.4.3.0.nupkg.sha512"
+    },
+    "System.Threading.Tasks/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LbSxKEdOUhVe8BezB/9uOGGppt+nZf6e1VFyw6v3DN6lqitm0OSn2uXMOdtP0M3W4iMcqcivm2J6UgqiwwnXiA==",
+      "path": "system.threading.tasks/4.3.0",
+      "hashPath": "system.threading.tasks.4.3.0.nupkg.sha512"
+    },
+    "Assembly-CSharp/0.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Exiled.API/3.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Exiled.CustomItems/3.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Exiled.Events/3.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Exiled.Loader/3.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Exiled.Permissions/3.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
