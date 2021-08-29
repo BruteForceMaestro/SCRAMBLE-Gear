@@ -1,4 +1,5 @@
-﻿using Exiled.API.Features.Items;
+﻿using Exiled.API.Features;
+using Exiled.API.Features.Items;
 using Exiled.CustomItems.API;
 using Exiled.CustomItems.API.Features;
 using Exiled.CustomItems.API.Spawn;
@@ -9,7 +10,7 @@ namespace SCRAMBLE_Gear
 {
     public class ci_gear : CustomItem
     {
-
+        Config config = new Config();
         public override uint Id { get; set; } = 16;
 
         public override string Name { get; set; } = "SCRAMBLE Gear";
@@ -73,21 +74,37 @@ namespace SCRAMBLE_Gear
         }
         public void BecomingTarget(AddingTargetEventArgs ev)
         {
-            foreach (Item item in ev.Target.Items)
+            if (config.NeedToHoldInHand)
             {
-                if (Check(item))
+                if (Check(ev.Target.CurrentItem))
                 {
                     ev.IsAllowed = false;
                     ev.Target.ShowHint("You looked at SCP-096, but you had Scramble Gear equipped");
                 }
+            } else
+            {
+                foreach (Item item in ev.Target.Items)
+                {
+                    if (Check(item))
+                    {
+                        ev.IsAllowed = false;
+                        ev.Target.ShowHint("You looked at SCP-096, but you had Scramble Gear equipped");
+                    }
+                }
             }
+            
+            
         }
         protected override void OnChanging(ChangingItemEventArgs ev)
         {
-            if (Check(ev.NewItem))
+            Log.Info(config.NeedToHoldInHand);
+            if (config.NeedToHoldInHand && Check(ev.NewItem))
             {
-                ev.Player.ShowHint("You already equipped Scramble Gear.");
-                ev.IsAllowed = false;
+                ev.Player.ShowHint("You equipped Scramble Gear");
+            }
+            else if (Check(ev.NewItem))
+            {
+                ev.Player.ShowHint("You don't need to hold it in hand in order for Scramble Gear to work");
             }
         }
 
